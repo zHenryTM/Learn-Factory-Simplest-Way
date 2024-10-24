@@ -3,10 +3,12 @@
 ### What is Factory?
 
 Factory is a design pattern in which a class (called a factory class) creates instances of different classes.
+
 ‎ 
 ### But how does the factory class know which class it should instantiate?
 
 Through parameters that the client provides to the factory class.
+
 ‎ 
 ### What is the advantage of creating a class that instantiates other classes in a "customized" way? 
 
@@ -45,8 +47,9 @@ Depending on the value of this string, the MessageFactory will instantiate SMSMe
 #### Practical example in C# of the MessageFactory:
 
 ![image](https://github.com/user-attachments/assets/a1e5c692-2bc3-40ba-bedc-9dd69c040b56)
-‎ 
-_**Fot those who don't know C#:**_
+
+
+_**For those who don't know C#:**_
 _In `public IMessage? GetMessage(string messageType)`, the question mark (?) after `IMessage` means that the method can return an instance of a class that implements the `IMessage` interface or it can return null._
 
 `StringComparison.CurrentCultureIgnoreCase` _is a parameter that makes Equals() not consider different uppercase and lowercase characters._
