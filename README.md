@@ -54,7 +54,6 @@ _**For those who don't know C#:**_
 _In `public IMessage? GetMessage(string messageType)`, the question mark (?) after `IMessage` means that the method can return an instance of a class that implements the `IMessage` interface or it can return null._
 
 `StringComparison.CurrentCultureIgnoreCase` _is a parameter that makes Equals() not consider different uppercase and lowercase characters._
-
 ‎ 
 ## Using Factory
 
