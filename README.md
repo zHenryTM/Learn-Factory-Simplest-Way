@@ -30,7 +30,8 @@ So far, we have the following structure:‎
 ‎
 #### Practical example in C# of the interface and the classes:
 
-![image](https://github.com/user-attachments/assets/42cf1970-5d08-4c81-9fe9-954dac59010c)
+![image](https://github.com/user-attachments/assets/4e29ade9-f42e-4671-a4aa-0bb7431f78f1)
+
 
 
 The classes that implement IMessage will send messages according to their type: SMS, Email or Notification.
