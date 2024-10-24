@@ -62,7 +62,7 @@ It's done! Now we can create an instance of the factory class and let it be resp
 
 Now everything will be easier; the code below is sufficient for you to understand how to implement the Factory pattern in your code.
 
-![image](https://github.com/user-attachments/assets/5e17fe1d-c4e1-40c8-9be8-6b67a371d419)
+![image](https://github.com/user-attachments/assets/e4b48a5a-3b0c-49d3-b4d5-a77f82e30c2f)
 
 ‎ 
 ### Thank you!
