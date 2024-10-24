@@ -3,6 +3,7 @@
 ### What is Factory?
 
 Factory is a design pattern in which a class (called a factory class) creates instances of different classes.
+
 ‎ 
 ### But how does the factory class know which class it should instantiate?
 
@@ -15,7 +16,7 @@ Through parameters that the client provides to the factory class.
 - It centralizes the responsibility of deciding which object to instantiate.
 - It makes it easier to add new types of objects to the system without modifying the client code.
 
-
+‎ 
 ## Basic Structure of Implementing Factory in Practice:
 
 We will create an interface called **IMessage** and three classes: **SMSMessage**, **EmailMessage**, and **PushNotificationMessage** (I’m creating three classes as examples, but you can create as many as you want).
