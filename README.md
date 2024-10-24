@@ -3,10 +3,10 @@
 
 ### What is Factory?
 Factory is a design pattern in which a class (called a factory class) creates instances of different classes.
-
+     
 ### But how does the factory class know which class it should instantiate?
 Through parameters that the client provides to the factory class.
-
+       
 ### What is the advantage of creating a class that instantiates other classes in a "customized" way? 
 - The Factory helps instantiate objects without exposing the logic.
 - It centralizes the responsibility of deciding which object to instantiate.
