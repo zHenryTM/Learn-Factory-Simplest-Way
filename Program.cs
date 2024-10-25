@@ -1,4 +1,6 @@
-﻿using System;
+#pragma warning disable CS8602
+
+using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
@@ -37,7 +39,7 @@ public class PushNotificationMessage : IMessage
     public void Send(string message)
     {
         message = (message == null) ? "" : message; 
-        Console.WriteLine("Message sent by Notificação Push: " + message);
+        Console.WriteLine("Message sent by Notification Push: " + message);
     }
 }
 
